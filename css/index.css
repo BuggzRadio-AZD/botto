@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: purple;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;  /* Space out the elements in the header */
+    align-items: center;  /* Vertically center the content */
+    padding: 10px 20px;  /* Add padding for some space around the content */
+}
+
+.headimg {
+    /* If you want to align the image to the left, you can leave it as it is or customize */
+    align-items: flex-start;
+}
+
+.headlink {
+    color: #ff2fd3;
+    text-align: right;
+    text-decoration: none;  /* Remove underline from links */
+}
+
+a {
+    background-color: #35287f;
+    color: #ff2fd3;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15%;
+    transition: all;
+    transition: transform 0.3s ease;  /* Smooth transition for the scaling effect */
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);  /* Makes the link 20% larger when hovered */
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}

@@ -10,6 +10,7 @@ body {
     background-color: black;
     color: purple;
     padding: 20px;
+    
 }
 
 header {
@@ -32,6 +33,26 @@ header {
     text-decoration: none;  /* Remove underline from links */
 }
 
+main {
+    align-items: center;
+    align-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.content {
+    padding-top: 20px;
+    display: flex;               /* Set the content as a flex container */
+    flex-direction: column;      /* Stack elements vertically */
+    justify-content: center;     /* Center items vertically */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text inside the content */
+}
+
+p {
+    color: white;
+}
+
 a {
     background-color: #35287f;
     color: #ff2fd3;
@@ -40,8 +61,6 @@ a {
     border-radius: 15%;
     transition: all;
     transition: transform 0.3s ease;  /* Smooth transition for the scaling effect */
-
-
 }
 
 a:hover {
